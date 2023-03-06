@@ -1,6 +1,7 @@
 import type { ChatMessage } from '@/types'
 import { createSignal, Index, Show } from 'solid-js'
 import IconClear from './icons/Clear'
+import IconSend from './icons/Send'
 import MessageItem from './MessageItem'
 import SystemRoleSettings from './SystemRoleSettings'
 import { generateSignature } from '@/utils/auth'
