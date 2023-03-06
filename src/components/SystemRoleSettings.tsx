@@ -71,7 +71,7 @@ export default (props: Props) => {
               resize-none scroll-pa-8px
             />
           </div>
-          <button onClick={handleButtonClick} h-12 px-4 py-2 bg-slate bg-op-15 hover:bg-op-20 text-slate rounded-sm>
+          <button title="设定" onClick={handleButtonClick} h-12 px-4 py-2 bg-slate bg-op-15 hover:bg-op-20 text-slate rounded-sm>
             <IconCheck />
           </button>
         </div>
