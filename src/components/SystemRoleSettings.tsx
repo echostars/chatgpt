@@ -25,7 +25,7 @@ export default (props: Props) => {
           <div class="text-slate">
             <div class="flex items-center gap-1 op-60 text-slate">
               <IconEnv />
-              <span>System Role:</span>
+              <span>系统规则:</span>
             </div>
             <div class="mt-1">
               { props.currentSystemRoleSettings() }
@@ -43,7 +43,7 @@ export default (props: Props) => {
         <div>
           <div class="flex items-center gap-1 op-60 text-slate">
             <IconEnv />
-            <span>System Role:</span>
+            <span>系统规则:</span>
           </div>
           <p class="my-2 leading-normal text-slate text-sm op-60">Gently instruct the assistant and set the behavior of the assistant.</p>
           <div>
