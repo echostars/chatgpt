@@ -45,11 +45,11 @@ export default (props: Props) => {
             <IconEnv />
             <span>系统规则:</span>
           </div>
-          <p class="my-2 leading-normal text-slate text-sm op-60">使用规则轻微指导助手，设定助手的回答方式及行为。</p>
+          <p class="my-2 leading-normal text-slate text-sm op-60">使用系统规则轻微指导并改变AI的回答方式及行为。</p>
           <div>
             <textarea
               ref={systemInputRef!}
-              placeholder="You are a helpful assistant, answer as concisely as possible...."
+              placeholder="尽可能简洁地回答...."
               autocomplete="off"
               autofocus
               rows="3"
