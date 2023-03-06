@@ -1,6 +1,7 @@
 import { Show } from 'solid-js'
 import type { Accessor, Setter } from 'solid-js'
 import IconEnv from './icons/Env'
+import IconCheck from './icons/Check'
 
 interface Props {
   canEdit: Accessor<boolean>
@@ -71,7 +72,7 @@ export default (props: Props) => {
             />
           </div>
           <button onClick={handleButtonClick} h-12 px-4 py-2 bg-slate bg-op-15 hover:bg-op-20 text-slate rounded-sm>
-            设定
+            <IconCheck />
           </button>
         </div>
       </Show>
