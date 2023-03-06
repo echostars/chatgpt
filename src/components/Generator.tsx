@@ -207,7 +207,7 @@ export default () => {
             placeholder:op-30
             scroll-pa-8px
           />
-          <button title="发送" onClick={handleButtonClick} disabled={systemRoleEditing()} h-12 px-4 py-2 bg-slate bg-op-15 hover:bg-op-20 text-base text-slate rounded-sm cursor-pointer>
+          <button title="发送" onClick={handleButtonClick} disabled={systemRoleEditing()} h-12 px-4 py-2 bg-slate bg-op-15 hover:bg-op-20 text-slate rounded-sm>
             <IconSend />
           </button>
           <button title="清空" onClick={clear} disabled={systemRoleEditing()} h-12 px-4 py-2 bg-slate bg-op-15 hover:bg-op-20 text-slate rounded-sm>
