@@ -7,6 +7,7 @@ import SystemRoleSettings from './SystemRoleSettings'
 import { generateSignature } from '@/utils/auth'
 
 export default () => {
+  alert(ChatGPT额度已用完！);
   let inputRef: HTMLTextAreaElement
   const [currentSystemRoleSettings, setCurrentSystemRoleSettings] = createSignal('')
   const [systemRoleEditing, setSystemRoleEditing] = createSignal(false)
